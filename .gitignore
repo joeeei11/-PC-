@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.joblib
+
+artifacts/
+data/
+
+.venv/
+venv/
+.idea/
+.vscode/
