@@ -7,6 +7,28 @@
 - 输出测试集准确率和分类报告
 - 对单张人脸图片做身份预测
 
+仓库当前已经包含：
+
+- 演示数据集 `data/demo/olivetti_faces`
+- 训练好的模型 `artifacts/face_recognizer.joblib`
+- Python 缓存目录 `__pycache__`
+
+因此拉取仓库后，不需要再先下载演示数据，也不需要先训练模型，就可以直接做演示预测。
+
+## 0. 直接运行演示
+
+如果你的环境已经装好依赖，可以直接运行：
+
+```bash
+python predict.py --model artifacts/face_recognizer.joblib --image data/demo/olivetti_faces/person_07/person_07_070.png
+```
+
+Windows 下也可以直接执行：
+
+```bash
+run_demo.bat
+```
+
 ## 1. 环境准备
 
 建议直接使用当前目录，在终端中执行：
